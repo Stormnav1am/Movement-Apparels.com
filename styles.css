@@ -1,0 +1,360 @@
+
+body {
+    background-color: white;
+  }
+
+.container { 
+  width: min(200%, 200px);
+     color: white;
+     position: relative;
+     top: -855px;
+     font-family: andale mono, monospace;
+     margin-inline: auto;
+     font-size: 25px;
+     box-sizing: border-box;
+     white-space: nowrap;
+     float: left;
+     left: 230px;
+ }
+ 
+  .circular--square { border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; 
+    position: relative;
+    top: -330px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    margin-inline: auto;
+    
+}
+
+.container1 { 
+    width: min(200%, 200px);
+    color: white;
+    position: relative;
+    top: -855px;
+    font-family: andale mono, monospace;
+    margin-inline: auto;
+    font-size: 25px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    float: right;
+    left: -350px;
+   }
+
+   .container2 { 
+    width: min(200%, 400px);
+       color: black;
+       position: relative;
+       top: -962px;
+       left: -900px;
+       font-family: andale mono, monospace;
+       margin-inline: auto;
+       font-size: 10px;
+  
+   }
+
+   .south {
+    width: min(200%, 200px);
+    color: white;
+    position: relative;
+    left:  -500px;
+    font-family: arial;
+    margin-inline: auto;
+    font-size: clamp(10px, 1vw + 1px, 10px);
+    display: none;
+   }
+
+   .spotify
+   {   
+       position: relative;
+       top: -100px;
+       left: 30px;
+   }
+
+
+   .spotify2 
+   {   
+       position: relative;
+       top: -160px;
+       left: 15px;
+
+       
+   }
+
+
+   @media only screen and (max-width: 500px) {
+   
+    body {
+        background-color: white;
+      }
+
+    .circular--square { border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; 
+        position: relative;
+        top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        box-shadow:  0 0 2rem steelblue;
+        left: 10px;
+     }
+     
+     .social-menu ul{
+        position: absolute;
+        top: 51%;
+        left: 52%;
+        padding: 0;
+        margin: 0;
+        transform: translate(-50%, -50%);
+        display: flex;
+    }
+
+    .container1 { 
+        width: min(200%, 200px);
+           color: white;
+           position: relative;
+           top: 95px;
+           text-align: center;
+           font-family: arial;
+           margin-inline: auto;
+           font-size: clamp(14px, 1vw + 1px, 10px);
+      }
+
+    
+       .social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li .fab{
+    font-size: 25px;
+    line-height: 50px;
+    transition: .3s;
+    color: #000;
+}
+
+.yet {
+    position: relative;
+    top: 115px;
+    left: 95px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: monospace;
+  border-radius: 25px;
+  cursor: crosshair;
+  display: hidden;
+}
+
+.container3 { 
+       color: black;
+       position: relative;
+       top: 200px;
+       left: 20px;
+       font-family: monospace;
+       font-size: 10px;
+       display: none;
+       
+  }
+
+ .ni {
+    position: relative;
+    top: 170px;
+    text-align: center;
+ }
+
+ .mi {
+    position: relative;
+    top: 190px;
+    left: 100px;
+ } 
+ 
+ .zinc {
+    position: relative;
+    top: 290px;
+    left: 90px;
+ }
+
+ .taste {
+    position: relative;
+    top: 40px;
+    font-size: 12px;
+    font-family: monospace;
+    left: 105px;
+ }
+
+ .taste1 {
+    position: relative;
+    top: 300px;
+    font-size: 12px;
+    font-family: monospace;
+    left: 135px;
+ }
+
+ .mi1 {
+    position: relative;
+    top: 320px;
+    left: 100px;
+ } 
+
+ .taste9 {
+    position: relative;
+    top: 350px;
+    font-size: 12px;
+    font-family: monospace;
+    text-align: center;
+ }
+ 
+ .container { 
+    width: min(200%, 200px);
+       color: white;
+       position: relative;
+       top: -855px;
+       font-family: andale mono, monospace;
+       margin-inline: auto;
+       font-size: 10px;
+       box-sizing: border-box;
+       white-space: nowrap;
+      text-align: center;
+       left: 30px;
+   }
+   
+   .container2 { 
+    width: min(200%, 400px);
+       color: black;
+       position: relative;
+       top: -962px;
+       left: -900px;
+       font-family: andale mono, monospace;
+       margin-inline: auto;
+       font-size: 10px;
+       display: none;
+  
+   }
+
+   .spotify2 
+   {   
+       position: relative;
+       top: -160px;
+       left: 15px;
+       display: none;
+
+       
+   }
+     
+   #selector {
+    height: 970px;
+    width: 100%;
+    margin-top: 30px;
+    opacity: 0.9;
+    display: none;
+}
+
+   }
+/* Cut */
+   #selector {
+    height: 370px;
+    width: 100%;
+    margin-top: 30px;
+    opacity: 0.9;
+}
+
+.social-menu ul{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover{
+    color: #fff;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: black;
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #E4405F;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #0077b5;
+}
+.social-menu ul li:nth-child(4) a:hover{
+    background-color: #1D9BF0;
+}
+
+.yet {
+    position: relative;
+    top: -609px;
+    left: 1120px;
+    background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: monospace;
+  border-radius: 25px;
+  cursor: crosshair;
+  display: none;
+}
+
+
+.slot1 { 
+    position: relative;
+    top: -610px;
+    left: 875px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    line-height: 30px;
+}
