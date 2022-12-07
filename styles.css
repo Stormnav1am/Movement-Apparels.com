@@ -1,0 +1,294 @@
+@media (min-width:1281px) {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: black;
+}
+
+.group {
+  position: relative;
+  top: 50px;
+  font-size: large;
+  text-align: center;
+}
+
+.try {
+  position: relative;
+  top: 360px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  margin-top: auto;
+  top: -5px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+.container{
+  width: 500px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 42%;
+  left: 50%;
+  overflow: hidden;
+  border: 10px solid wheat;
+  border-radius: 8px;
+  box-shadow: -1px 5px 15px black;
+}
+
+/*Area of images*/
+.wrapper{
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+}
+
+img{
+  width: 100%;
+  position: relative;
+}
+/*Animation activated by keyframes*/
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}
+
+.intro {
+  position: relative;
+  top: 650px;
+  font-size: large;
+  text-align: center;
+}
+
+.intro1 {
+  position: relative;
+  text-align: center;
+  top: 690px;
+  font-size: x-small;
+}
+
+
+.intro2 {
+  position: relative;
+  text-align: center;
+  top: 500px;
+  font-size: small;
+}
+
+.intro3 {
+  position: relative;
+  top: 720px;
+  font-size: x-small;
+  text-align: center;
+}
+
+.intro4 {
+  position: relative;
+  top: 750px;
+  font-size: x-small;
+  text-align: center;
+}
+
+.intro5 {
+  position: relative;
+  top: 890px;
+  font-size: large;
+  text-align: center;
+}
+ 
+.intro6 {
+  position: relative;
+  top: 930px;
+  text-align: center;
+  font-size: x-small;
+}
+
+.intro7 {
+  position: relative;
+  top: 1060px;
+  font-size: medium;
+  text-align: center;
+}
+ 
+.intro8 {
+  position: relative;
+  top: 1110px;
+  text-align: center;
+  font-size: x-small;
+}
+
+.intro9 {
+  position: relative;
+  top: 1260px;
+  font-size: medium;
+  text-align: center;
+}
+ 
+.intro10 {
+  position: relative;
+  top: 1310px;
+  font-size: x-small;
+  text-align: center;
+}
+
+.intro11 {
+  position: relative;
+  top: 1450px;
+  font-size: medium;
+  text-align: center;
+  color: firebrick;
+}
+
+.intro12 {
+  position: relative;
+  top: 1510px;
+  font-size: x-small;
+  text-align: center;
+}
+
+.intro13 {
+  position: relative;
+  top: 1630px;
+  border-radius: 25px;
+  white-space: nowrap;
+  border: 1.5px solid lightgrey;
+  width: 450px;
+  background-color: black;
+  color: white;
+  font-size: small;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro14 {
+  position: relative;
+  top: 1750px;
+  text-align: center;
+  font-size: x-small;
+}
+
+.magellan img {
+  position: relative;
+  height: 390px;
+  width: 340px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 590px;
+}
+
+.pigafetta img {
+  position: relative;
+  height: 390px;
+  width: 340px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 835px;
+}
+
+.ship img {
+  position: relative;
+  height: 350px;
+  width: 590px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 1015px;
+}
+
+.yow2 img {
+  position: relative;
+  height: 350px;
+  width: 590px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 1215px;
+}
+
+.yow3 img {
+  position: relative;
+  height: 550px;
+  width: 1120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 1395px;
+}
+
+.yow4 img {
+  position: relative;
+  height: 550px;
+  width: 1120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 1610px;
+}
+
+}
