@@ -1,0 +1,310 @@
+html * {
+  font-family: monospace;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: black;
+}
+
+.begin1 img {
+  position: relative;
+  height: 390px;
+  width: 340px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 90px;
+}
+
+.group {
+  position: relative;
+  top: 50px;
+  font-size: large;
+  text-align: center;
+}
+
+.try {
+  position: relative;
+  top: 360px;
+}
+
+.intro {
+  position: relative;
+  top: 650px;
+  font-size: large;
+  text-align: center;
+}
+
+.intro1 {
+  position: relative;
+  text-align: center;
+  top: 690px;
+  font-size: x-small;
+}
+
+
+.intro2 {
+  position: relative;
+  text-align: center;
+  top: 150px;
+  font-size: 12px;
+  border-style: solid;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.intro3 {
+  position: relative;
+  top: 720px;
+  font-size: x-small;
+  text-align: center;
+}
+
+.intro4 {
+  position: relative;
+  top: 750px;
+  font-size: x-small;
+  text-align: center;
+}
+
+.intro5 {
+  position: relative;
+  top: 890px;
+  font-size: large;
+  text-align: center;
+}
+ 
+.intro6 {
+  position: relative;
+  top: 930px;
+  text-align: center;
+  font-size: x-small;
+}
+
+.intro7 {
+  position: relative;
+  top: 1060px;
+  font-size: medium;
+  text-align: center;
+}
+ 
+.intro8 {
+  position: relative;
+  top: 1110px;
+  text-align: center;
+  font-size: x-small;
+}
+
+.intro9 {
+  position: relative;
+  top: 1260px;
+  font-size: medium;
+  text-align: center;
+}
+ 
+.intro10 {
+  position: relative;
+  top: 1310px;
+  font-size: x-small;
+  text-align: center;
+}
+
+.intro11 {
+  position: relative;
+  top: 1450px;
+  font-size: medium;
+  text-align: center;
+  color: firebrick;
+}
+
+.intro12 {
+  position: relative;
+  top: 1510px;
+  font-size: x-small;
+  text-align: center;
+}
+
+.intro13 {
+  position: relative;
+  top: 1630px;
+  border-radius: 25px;
+  white-space: nowrap;
+  border: 1.5px solid lightgrey;
+  width: 450px;
+  background-color: black;
+  color: white;
+  font-size: small;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro14 {
+  position: relative;
+  top: 1750px;
+  text-align: center;
+  font-size: x-small;
+}
+
+.magellan img {
+  position: relative;
+  height: 390px;
+  width: 340px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 290px;
+}
+
+.pigafetta img {
+  position: relative;
+  height: 390px;
+  width: 340px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 835px;
+}
+
+.ship img {
+  position: relative;
+  height: 350px;
+  width: 590px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 1015px;
+}
+
+.yow2 img {
+  position: relative;
+  height: 350px;
+  width: 590px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 1215px;
+}
+
+.yow3 img {
+  position: relative;
+  height: 550px;
+  width: 1120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 1395px;
+}
+
+.yow4 img {
+  position: relative;
+  height: 550px;
+  width: 1120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  top: 1610px;
+}
+
+@media only screen and (max-width: 500px) { 
+  .group {
+    position: relative;
+    top: 50px;
+    font-size: large;
+    text-align: center;
+    font-family: monospace;
+    color: black;
+  }
+
+  .intro2 {
+    position: relative;
+    text-align: center;
+    top: 150px;
+    font-size: 8px;
+    border-style: solid;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  .ship img {
+    position: relative;
+    height: 350px;
+    width: 340px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    top: 1015px;
+  }
+  
+  .yow2 img {
+    position: relative;
+    height: 350px;
+    width: 340px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    top: 1215px;
+  }
+
+  .yow3 img {
+    position: relative;
+    height: 350px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    top: 1395px;
+  }
+
+  .yow4 img {
+    position: relative;
+    height: 250px;
+    width: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    top: 1610px;
+  }
+
+  .intro13 {
+    position: relative;
+    top: 1630px;
+    border-radius: 25px;
+    white-space: nowrap;
+    border: 1.5px solid lightgrey;
+    width: 350px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
